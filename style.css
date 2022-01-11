@@ -1,7 +1,13 @@
 body, html {
     height: 100%;
 }
+.row {
+  display: flex;
+}
 
+.column {
+  flex: 50%;
+}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url("images/downtown.jpg");
 
